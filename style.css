@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+*{
+    color: white;
+}
+.container{
+    gap: 9px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: fit-content;
+    justify-self: center;
+    background-color: rgba(227, 209, 162, 0.97);
+   color:rgb(108, 38, 38) ;
+    border: none;
+    border-radius: 5px;
+}
+button{
+    width: fit-content;
+    color:rgb(108, 38, 38) ;
+    background-color: rgba(227, 209, 162, 0.97);
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    justify-self: center;
+}
